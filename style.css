@@ -7,12 +7,11 @@
     font-family: 'Poppins',sans-serif;
 }
 body{
-  display: flex ;
-    
+    display: flex ;    
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-image: url(https://cdn.wallpapersafari.com/65/19/CRuKD9.jpg) ;
+    background-image: url(images/bkgrnd.webp) ;
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -70,8 +69,7 @@ body{
     background:#c3073f;
 }
 .container .card .face.face2{
-    background-image: url(https://c4.wallpaperflare.com/wallpaper/707/220/899/gradient-blue-pink-abstract-art-wallpaper-preview.jpg);
-    background-color: #c3073f;
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/707/220/899/gradient-blue-pink-abstract-art-wallpaper-preview.jpg);    background-color: #c3073f;
     transition:0.5s;
 }
 .container .card:hover .face.face2{
