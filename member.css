@@ -1,7 +1,9 @@
 body{
 	margin:0;
 	color:#6a6f8c;
-	background:#c4c592;
+	background-image: url(https://c4.wallpaperflare.com/wallpaper/707/220/899/gradient-blue-pink-abstract-art-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+	background-size: cover;
 	font:600 16px/18px 'Open Sans',sans-serif;
 }
 *,:after,:before{box-sizing:border-box}
