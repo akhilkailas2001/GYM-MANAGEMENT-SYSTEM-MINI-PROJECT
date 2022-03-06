@@ -1,0 +1,5 @@
+in mysql first create database gym
+
+- create database gym;
+- create table trainer_details
+- create table trainer_shift
