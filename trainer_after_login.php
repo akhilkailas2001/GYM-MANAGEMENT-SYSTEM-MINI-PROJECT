@@ -31,13 +31,13 @@
         <tr>
         <th>Member Details</th>
         <td>
-        <button class="btn btn-primary"><a href="regdisplay.php" class="text-light">View</a></button>
+        <button class="btn btn-primary"><a href="member_details.php" class="text-light">View</a></button>
         </td>
       </tr>
       <tr>
         <th>Shift</th>
         <td>
-        <button class="btn btn-primary"><a href="purdisplay.php" class="text-light">View</a></button>
+        <button class="btn btn-primary"><a href="member_shift.php" class="text-light">View</a></button>
         </td>
       </tr>
       <tr>
