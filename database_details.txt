@@ -1,0 +1,56 @@
+MariaDB [gym]> show databases;
++--------------------+
+| Database           |
++--------------------+
+| gym                |
+| information_schema |
+| mysql              |
+| performance_schema |
+| phpmyadmin         |
+| test               |
++--------------------+
+6 rows in set (0.001 sec)
+
+MariaDB [gym]> show tables;
++-----------------+
+| Tables_in_gym   |
++-----------------+
+| member_details  |
+| trainer_details |
+| trainer_shift   |
++-----------------+
+3 rows in set (0.001 sec)
+
+MariaDB [gym]> desc member_details;
++--------+-------------+------+-----+---------+-------+
+| Field  | Type        | Null | Key | Default | Extra |
++--------+-------------+------+-----+---------+-------+
+| id     | int(11)     | YES  |     | NULL    |       |
+| name   | varchar(30) | YES  |     | NULL    |       |
+| gender | varchar(30) | YES  |     | NULL    |       |
+| email  | varchar(30) | YES  |     | NULL    |       |
+| age    | int(11)     | YES  |     | NULL    |       |
++--------+-------------+------+-----+---------+-------+
+5 rows in set (0.169 sec)
+
+MariaDB [gym]> desc trainer_details;
++--------+-------------+------+-----+---------+-------+
+| Field  | Type        | Null | Key | Default | Extra |
++--------+-------------+------+-----+---------+-------+
+| id     | int(11)     | YES  |     | NULL    |       |
+| name   | varchar(30) | YES  |     | NULL    |       |
+| gender | varchar(30) | YES  |     | NULL    |       |
+| email  | varchar(30) | YES  |     | NULL    |       |
+| age    | int(11)     | YES  |     | NULL    |       |
++--------+-------------+------+-----+---------+-------+
+5 rows in set (0.103 sec)
+
+MariaDB [gym]> desc trainer_shift;
++-------+-------------+------+-----+---------+-------+
+| Field | Type        | Null | Key | Default | Extra |
++-------+-------------+------+-----+---------+-------+
+| id    | int(11)     | YES  |     | NULL    |       |
+| name  | varchar(30) | YES  |     | NULL    |       |
+| shift | varchar(30) | YES  |     | NULL    |       |
++-------+-------------+------+-----+---------+-------+
+3 rows in set (0.234 sec)

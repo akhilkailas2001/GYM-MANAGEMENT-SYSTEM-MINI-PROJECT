@@ -19,9 +19,3 @@
 	paste our project folder in this location
 	then go to browser and type
 	localhost/file_name
-
-6.database for running this project
-
-	create database gym
-	create table trainer_details
-	create table trainer_shift
