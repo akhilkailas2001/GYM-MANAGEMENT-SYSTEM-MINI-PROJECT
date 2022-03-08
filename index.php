@@ -21,7 +21,7 @@
                      <div class="content">
                        
                        <h3><i>Gym memebers please click here to login</i></h3>
-                       <a href="member.php" class="stretched-link"></a>
+                       <a href="member_login.php" class="stretched-link"></a>
                      </div>
                    </div>
 
@@ -34,7 +34,7 @@
                      <div class="content">
                       
                        <h3><i>Gym trainers please click here to login</i></h3>
-                       <a href="trainer.php" class="stretched-link"></a>
+                       <a href="trainer_login.php" class="stretched-link"></a>
                      </div>
                    </div>
                    <div class="face face2">
