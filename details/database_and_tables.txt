@@ -11,14 +11,8 @@ MariaDB [gym]> show databases;
 +--------------------+
 6 rows in set (0.001 sec)
 
-MariaDB [gym]> show tables;
-+-----------------+
-| Tables_in_gym   |
-+-----------------+
-| member_details  |
-| trainer_details |
-| trainer_shift   |
-+-----------------+
+MariaDB [gym]> use gym;
+
 3 rows in set (0.001 sec)
 
 MariaDB [gym]> desc member_details;
@@ -54,3 +48,14 @@ MariaDB [gym]> desc trainer_shift;
 | shift | varchar(30) | YES  |     | NULL    |       |
 +-------+-------------+------+-----+---------+-------+
 3 rows in set (0.234 sec)
+
+MariaDB [gym]> desc fitness;
++----------+-------------+------+-----+---------+-------+
+| Field    | Type        | Null | Key | Default | Extra |
++----------+-------------+------+-----+---------+-------+
+| id       | int(11)     | YES  |     | NULL    |       |
+| activity | varchar(20) | YES  |     | NULL    |       |
+| trainer  | varchar(20) | YES  |     | NULL    |       |
+| slot     | varchar(20) | YES  |     | NULL    |       |
++----------+-------------+------+-----+---------+-------+
+4 rows in set (0.012 sec)

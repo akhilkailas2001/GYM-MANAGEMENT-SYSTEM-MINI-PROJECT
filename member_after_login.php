@@ -43,7 +43,7 @@
       <tr>
         <th>Fitness Activity</th>
         <td>
-        <button class="btn btn-primary"><a href="fitness_activity.php" class="text-light">View</a></button>
+        <button class="btn btn-primary"><a href="fitness.php" class="text-light">View</a></button>
         </td>
 
   </tbody>
