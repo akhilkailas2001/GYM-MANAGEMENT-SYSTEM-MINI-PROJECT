@@ -28,25 +28,8 @@ This is a mini project on gym management system developed by Akhil Kailas, Kisho
 	then go to browser and type
 	localhost/file_name
 	
-
-2] Files used:
-
-	connect.php
-	index.php
-	member_login.php
-	trainer_login.php
-	member_login.php
-	member_after_login.php
-	trainer_details.php
-	trainer_shift.php
-	fitness.php
-	trainer_login.php
-	trainer_after_login.php
-	member_details.php
-	member_shift.php
-	member_specialisation.php
 	
-3] Mysql commands used:
+2] Mysql commands used:
 
 	create database gym;
 	use gym;
