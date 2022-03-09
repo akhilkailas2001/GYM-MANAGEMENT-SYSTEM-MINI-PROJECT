@@ -38,7 +38,7 @@ $result = mysqli_query($connection,$sql);
  <section id="reg-form-section">
      <div class="container my-5">
                 
-        <form autocomplete="off" action="add_member.php" class="form-center" method="POST">
+        <form autocomplete="off" action="add_shift.php" class="form-center" method="POST">
                             <h5>  GYM Management System  </h5>
                         
                             <div class="mb-3">
@@ -48,7 +48,7 @@ $result = mysqli_query($connection,$sql);
                             
                             <div class="mb-3">
                                 <label for="exampleFormControlInput1" class="form-label">Shift</label>
-                                <input type="text" class="form-control" autocomplete="false" placeholder="Enter Shift" name="rname">
+                                <input type="text" class="form-control" autocomplete="false" placeholder="Enter Shift" name="shift">
                             </div>
                             
                             
