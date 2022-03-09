@@ -18,7 +18,7 @@
 
  <section id="purchase-form-section">
      <div class="container my-5" style="padding-bottom:300px;">
-     <h3>Trainer TAB</h3>
+     <h3>TRAINER TAB</h3>
      
     <table class="table table-bordered my-5">
   <thead>
@@ -35,15 +35,27 @@
         </td>
       </tr>
       <tr>
+        <th>Trainer Details</th>
+        <td>
+        <button class="btn btn-primary"><a href="trainer_details.php" class="text-light">View</a></button>
+        </td>
+      </tr>
+      <tr>
         <th>Shift</th>
         <td>
-        <button class="btn btn-primary"><a href="member_shift.php" class="text-light">View</a></button>
+        <button class="btn btn-primary"><a href="shift.php" class="text-light">View</a></button>
+        </td>
+      </tr>
+      <tr>
+        <th>Fitness Activity</th>
+        <td>
+        <button class="btn btn-primary"><a href="fitness.php" class="text-light">View</a></button>
         </td>
       </tr>
       <tr>
         <th>Specialisation</th>
         <td>
-        <button class="btn btn-primary"><a href="purdisplay.php" class="text-light">View</a></button>
+        <button class="btn btn-primary"><a href="specialisation.php" class="text-light">View</a></button>
         </td>
       </tr>
 

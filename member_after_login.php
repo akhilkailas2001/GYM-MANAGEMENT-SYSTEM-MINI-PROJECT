@@ -31,19 +31,31 @@
         <tr>
         <th>Trainer Details</th>
         <td>
-        <button class="btn btn-primary"><a href="trainer_details.php" class="text-light">View</a></button>
+        <button class="btn btn-primary"><a href="trainer_details_db.php" class="text-light">View</a></button>
+        </td>
+      </tr>
+      <tr>
+        <th>Member Details</th>
+        <td>
+        <button class="btn btn-primary"><a href="member_details_db.php" class="text-light">View</a></button>
+        </td>
+      </tr>
+      <tr>
+        <th>Specialisation</th>
+        <td>
+        <button class="btn btn-primary"><a href="specialisation_db.php" class="text-light">View</a></button>
         </td>
       </tr>
       <tr>
         <th>Shift</th>
         <td>
-        <button class="btn btn-primary"><a href="trainer_shift.php" class="text-light">View</a></button>
+        <button class="btn btn-primary"><a href="shift_db.php" class="text-light">View</a></button>
         </td>
       </tr>
       <tr>
         <th>Fitness Activity</th>
         <td>
-        <button class="btn btn-primary"><a href="fitness.php" class="text-light">View</a></button>
+        <button class="btn btn-primary"><a href="fitness_db.php" class="text-light">View</a></button>
         </td>
 
   </tbody>
