@@ -45,3 +45,12 @@ This is a mini project on gym management system developed by Akhil Kailas, Kisho
 	member_details.php
 	member_shift.php
 	member_specialisation.php
+	
+3] Mysql commands used:
+
+	create database gym;
+	use gym;
+	create table member_details(id int primary key,name varchar(30),gender varchar(30),email varchar(30),age int);
+	create table trainer_details(id int primary key,name varchar(30),gender varchar(30),email varchar(30),age int);
+	create table trainer_shift(id int primary key,name varchar(30),shift varchar(30));
+	create table fitness(id int primary key,activity varchar(30),trainer varchar(30),slot varchar(30));
