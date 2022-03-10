@@ -3,7 +3,7 @@ include('connect.php');
 if (isset($_POST['submit']))
 {
     $specialisation_name = $_POST['specialisation_name'];
-    $trained_by = $_POST['gender'];
+    $trained_by = $_POST['trained_by'];
    
 $sql = "INSERT INTO `specialisation` (`specialisation_name`, `trained_by`) VALUES ('$specialisation_name', ' $trained_by')";
 $result = mysqli_query($connection,$sql);
