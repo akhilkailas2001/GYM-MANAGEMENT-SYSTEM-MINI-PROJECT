@@ -66,7 +66,7 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
   </thead>
   <tbody>
 <?php
-    $sql ="SELECT * FROM `trainer_shift`";
+    $sql ="SELECT * FROM `shift`";
     $result = mysqli_query($connection,$sql);
        if($result)
        {
