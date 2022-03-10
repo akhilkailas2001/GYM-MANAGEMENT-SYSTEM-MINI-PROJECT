@@ -1,0 +1,9 @@
+need to complete
+
+add_fitness
+fitness_update
+fitness_delete
+
+add_specialisation
+specialisation_update
+specialisation_delete
