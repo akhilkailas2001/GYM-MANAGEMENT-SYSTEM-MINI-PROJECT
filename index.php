@@ -8,18 +8,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>G8 Fitness Centre</title>
+    <title>G8 Fitness Club</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"><body>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  </head>
+  <body>
 
-<body>        
-                <div class="container">
-                  
+   <div style="position:absolute; left:0px; top:0px; width: 100%; height: 20em">
+
+    
+<nav class="navbar navbar-expand-lg navbar-dark d-flex justify-content-center" style="background-color:#020228">
+  <a class="navbar-brand nav-link" href="#">
+ <img src="images/icon5.png" style="width: 40px;  height: 29px;"> G8 Fitness Club
+    <!--<img src="icon3.jpg" width="40" height="40" alt="">-->
+   </a>
+</nav>
+   <!--
+      
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid  d-flex justify-content-center">
+          <a class="navbar-brand" href="#">G8 Fitness And Training centre</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </nav> 
+      
+    -->
+   
+
+   </div>
+
+                <div class="container">                 
 
                   <div class="card">
                    <div class="face face1">
-                     <div class="content">
-                       
+                     <div class="content">                       
                        <h3><i>Gym memebers please click here to login</i></h3>
                        <a href="member_login.php" class="stretched-link"></a>
                      </div>
@@ -29,10 +53,10 @@
                      <h2>Members</h2>
                    </div>
                  </div>
+
                  <div class="card">
                    <div class="face face1">
-                     <div class="content">
-                      
+                     <div class="content">                      
                        <h3><i>Gym trainers please click here to login</i></h3>
                        <a href="trainer_login.php" class="stretched-link"></a>
                      </div>
@@ -41,22 +65,10 @@
                      <h2>Trainers</h2>
                    </div>
                  </div>
-                </div>
-                
+
+                </div>           
                
-                   
-                </div>
-    
-            
-              
-            
-                </div>
-                
-              </div>
-            
-          
-        
-</body>
+  </body>
 
 
 <style>
@@ -69,13 +81,13 @@
     font-family: 'Poppins',sans-serif;
 }
 body{
-    display: flex ;    
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
+    display: flex ;
     background-image: url(images/bkgrnd.webp) ;
     background-repeat: no-repeat;
     background-size: cover;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
     
 }
 .container{
@@ -154,6 +166,8 @@ body{
     color:#c3073f;
     font-size: 2em;
 }
+
+  
 
   </style>
   

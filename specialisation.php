@@ -1,5 +1,13 @@
 <?php
 include 'connect.php';
+
+session_start();
+
+if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
+{
+    header("location: login.php");
+}
+
 ?>
 
 <!DOCTYPE html>
@@ -11,9 +19,41 @@ include 'connect.php';
     <link rel="stylesheet" href="style.css">
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <title>Document</title>
+    <title>G8 Fitness Centre</title>
 </head>
 <body>
+
+
+<nav class="navbar navbar-expand-lg navbar-dark" style="background-color:#020228">
+  <a class="navbar-brand" href="#">G8 Fitness Club</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="trainer_after_login.php">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="trainer_register.php">Register</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="logout.php">Logout</a>
+      </li>
+     
+    </ul>
+  <div class="navbar-collapse collapse">
+  <ul class="navbar-nav ms-auto">
+  <li class="nav-item active">
+        <a class="nav-link" href="#"> <img src="images/user2.png"> <?php echo "Welcome ". $_SESSION['username']?></a>
+      </li>
+  </ul>
+  </div>
+
+
+  </div>
+</nav>
+
  <div class="container my-5" style="padding-bottom:300px;">
    <h3>SPECIALISATION DETAILS</h3>
     <button class="btn btn-primary my-5"><a href="add_specialisation.php" class="text-light">Add new</a></button>
